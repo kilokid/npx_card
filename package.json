@@ -1,14 +1,14 @@
 {
-  "name": "anmol",
+  "name": "insuline",
   "version": "4.0.0",
-  "description": "A personal card for Anmol Pratap Singh (@anmol098)",
+  "description": "A personal card for Aleksey Lisun (@insulineru)",
   "main": "card.js",
   "bin": {
-    "anmol": "./card.js"
+    "insuline": "./card.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anmol098/npx_card.git"
+    "url": "git+https://github.com/insuline/npx_card.git"
   },
   "scripts": {
     "test": "node card.js",
@@ -32,6 +32,6 @@
     "npx card",
     "business card"
   ],
-  "author": "Anmol Singh <hi@anmolsingh.me> (https://anmolsingh.me/)",
+  "author": "insulineru",
   "license": "ISC"
 }
