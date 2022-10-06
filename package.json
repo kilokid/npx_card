@@ -1,6 +1,6 @@
 {
   "name": "insuline",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "A personal card for Aleksey Lisun (@insulineru)",
   "main": "card.js",
   "bin": {
