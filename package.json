@@ -1,14 +1,14 @@
 {
-  "name": "insuline",
+  "name": "kilokid",
   "version": "5.0.0",
-  "description": "A personal card for Aleksey Lisun (@insulineru)",
+  "description": "A personal card for Artem Lomov (@kilokid)",
   "main": "card.js",
   "bin": {
-    "insuline": "./card.js"
+    "kilokid": "./card.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/insuline/npx_card.git"
+    "url": "git+https://github.com/kilokid/npx_card.git"
   },
   "scripts": {
     "test": "node card.js",
@@ -32,6 +32,6 @@
     "npx card",
     "business card"
   ],
-  "author": "insulineru",
+  "author": "kilokid",
   "license": "ISC"
 }

@@ -20,14 +20,14 @@ const questions = [
             {
                 name: `Send me an ${chalk.green.bold("email")}?`,
                 value: () => {
-                    open("mailto:insuli.ne.ru@gmail.com");
+                    open("mailto:lomovdev@gmail.com");
                     console.log("\nDone, see you soon at inbox.\n");
                 }
             },
             {
                 name: `Subscribe to my telegram channel`,
                 value: () => {
-                    open('https://t.me/insuline_lifestyle');
+                    open('https://t.me/teknogroupe');
                     console.log("\n See you at the telegram \n");
                 }
             },
@@ -42,16 +42,16 @@ const questions = [
 ];
 
 const data = {
-    name: chalk.bold.green("             Aleksey Lisun"),
-    handle: chalk.white("@insulineru"),
-    work: `${chalk.white("Web 3.0 Frontend Lead at")} ${chalk
+    name: chalk.bold.green("             Lomov Artem"),
+    handle: chalk.white("@kilokidu"),
+    work: `${chalk.white("Frontend dev at")} ${chalk
         .hex("#2b82b2")
-        .bold("Via Protocol")}`,
-    twitter: chalk.gray("https://twitter.com/") + chalk.cyan("insulineru"),
-    github: chalk.gray("https://github.com/") + chalk.green("insulineru"),
-    linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("insuline"),
-    telegram: chalk.cyan("https://t.me/insuline"),
-    npx: chalk.red("npx") + " " + chalk.white("insuline"),
+        .bold("M18")}`,
+    twitter: chalk.gray("https://twitter.com/") + chalk.cyan("killodev"),
+    github: chalk.gray("https://github.com/") + chalk.green("kilokid"),
+    linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("artem-lomov"),
+    telegram: chalk.cyan("https://t.me/teknokilokid"),
+    npx: chalk.red("npx") + " " + chalk.white("kilokid"),
 
     labelWork: chalk.white.bold("       Work:"),
     labelTwitter: chalk.white.bold("    Twitter:"),
